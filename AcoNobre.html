@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+ <!-- Made by Mr Steve Aka Senhor Estevão A. Lizi-->
+<!-- Portuguese Version -->
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AçoNobre – Móveis Industriais em Aço</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="CSS.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <div class="header-container">
+            <div class="language-switcher">
+<a href="AcoNobre.html" lang="pt-BR"><img src="Image/Pr-flag.jpg" alt="Portuguese" style="height:30px;"></a>
+  <a href="AcoNobre-en.html" lang="en"><img src="Image/usa-flag.jpg" alt="English" style="height:30px;"></a>
+  <a href="AcoNobre-fr.html" lang="fr"><img src="Image/fr-flag.jpg" alt="Français" style="height:30px;"></a>
+</div>
+            <div class="logo">
+                <div class="logo-icon">
+                    <span style="color:white; font-weight: bold;">A.N</span>
+                </div>
+                <span class="logo-text">AçoNobre</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home"><i class="fa fa-home"></i> Início</a></li>
+                    <li><a href="#products"><i class="fa fa-box"></i> Produtos</a></li>
+                    <li><a href="#about"><i class="fa fa-users"></i> Sobre</a></li>
+                    <li><a href="#testimonials"><i class="fa fa-star"></i> Depoimentos</a></li>
+                    <li><a href="#jobs"><i class="fa fa-briefcase"></i> Trabalhe Conosco</a></li>
+                    <li><a href="#contact"><i class="fa fa-comments"></i> Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+     <!-- Hero Carousel Section --> 
+    <section id="home" class="hero-carousel"> 
+        <div class="carousel-container"> 
+            <!-- Slide 1 --> 
+            <div class="carousel-slide active"> 
+                <img 
+src="ImagACO/Slide 8.jpg" 
+alt="Mesa Industrial Nobre" class="carousel-image"> 
+                <div class="carousel-content"> 
+                    <h1>Durabilidade que 
+                        <span>você sente</span> 
+                    </h1> 
+                    <p>Nossos móveis industriais em aço são projetados para resistir ao 
+tempo e oferecer elegância em qualquer ambiente.</p> 
+                    <a href="#products" class="btn">Ver Produtos <i class="fas fa-chevron right"></i></a> 
+                </div> 
+            </div> 
+ 
+            <!-- Slide 2 --> 
+            <div class="carousel-slide"> 
+                <img 
+src="Image/Slide7.jpg " 
+alt="Cadeiras Premium" class="carousel-image"> 
+                <div class="carousel-content"> 
+                    <h1>Design <span>Industrial Sofisticado</span></h1> 
+                    <p>Combine funcionalidade e estilo com nossos móveis em aço de alta 
+qualidade.</p> 
+                    <a href="#products" class="btn">Conheça Nossa Linha <i class="fas fa
+chevron-right"></i></a> 
+                </div> 
+            </div> 
+ 
+            <!-- Slide 3 --> 
+            <div class="carousel-slide"> 
+                <img 
+src="Image/Slide9.jpg " 
+alt="Estantes Industriais" class="carousel-image"> 
+                <div class="carousel-content"> 
+                    <h1>Soluções <span>para Armazenamento</span></h1> 
+                    <p>Estantes modulares em aço carbono com acabamento anticorrosivo 
+para lojas e escritórios.</p> 
+                    <a href="#products" class="btn">Ver Estantes <i class="fas fa-chevron right"></i></a> 
+                </div> 
+            </div> 
+ 
+            <!-- Slide 4 --> 
+            <div class="carousel-slide"> 
+                <img 
+src="Image/Slide10.jpg" alt="Bancadas de Trabalho" class="carousel-image"> 
+                <div class="carousel-content"> 
+                    <h1>Profissionalismo <span>em Cada Detalhe</span></h1> 
+                    <p>Bancadas profissionais com estrutura reforçada para oficinas e 
+laboratórios.</p> 
+                    <a href="#products" class="btn">Ver Bancadas <i class="fas fa-chevron right"></i></a> 
+                </div> 
+            </div> 
+ 
+            <!-- Slide 5 --> 
+            <div class="carousel-slide"> 
+                <img 
+src=" Image/Slide11.jpg" alt="Móveis para Escritórios" class="carousel-image"> 
+                <div class="carousel-content"> 
+                    <h1>Elegância <span>para Seu Escritório</span></h1> 
+                    <p>Mesas executivas com estrutura em aço inoxidável e tampo em vidro 
+temperado.</p> 
+                    <a href="#products" class="btn">Ver Escritórios <i class="fas fa chevron-right"></i></a> 
+                </div> 
+            </div> 
+ 
+            <!-- Slide 6 --> 
+            <div class="carousel-slide"> 
+                <img 
+src="Image/Slide14.jpg " alt="Fabricação de Qualidade" class="carousel-image"> 
+                <div class="carousel-content"> 
+                    <h1>Qualidade <span>Garantida</span></h1> 
+                    <p>Processos de fabricação rigorosos e materiais de primeira linha em 
+cada produto.</p> 
+                    <a href="#about" class="btn">Sobre Nós <i class="fas fa-chevron right"></i></a> 
+                </div> 
+            </div> 
+        </div> 
+ 
+        <!-- Carousel Controls --> 
+        <div class="carousel-controls"> 
+            <div class="carousel-control prev"> 
+                <i class="fas fa-chevron-left"></i> 
+            </div> 
+            <div class="carousel-control next"> 
+                <i class="fas fa-chevron-right"></i> 
+            </div> 
+        </div> 
+ 
+        <!-- Carousel Dots --> 
+        <div class="carousel-dots"> 
+            <div class="dot active" data-index="0"></div> 
+            <div class="dot" data-index="1"></div> 
+            <div class="dot" data-index="2"></div> 
+            <div class="dot" data-index="3"></div> 
+            <div class="dot" data-index="4"></div> 
+            <div class="dot" data-index="5"></div> 
+        </div> 
+    </section> 
+
+    <!--Products Section-->
+    <section id="products" class="products">
+        <div class="section-title">
+            <h2>Nossos Produtos</h2>
+            <p>Móveis industriais em aço com acabamento nobre e durabilidade comprovada</p>
+        </div>
+        <div class="products-grid">
+            <!--Product 1-->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="ImagACO/Mesa Industrial Nobre.jpg" alt="Mesa Industrial Nobre">
+                    <div class="new-badge">Novo</div>
+                </div>
+                <div class="product-info">
+                    <h3>Mesa Industrial Nobre</h3>
+                    <p>Mesa robusta com estrutura em aço carbono e tampo em madeira nobre. Ideal para ambientes comerciais e residenciais.</p>
+                    <span class="product-price">999.000 Kz</span>
+                    <a href="https://wa.me/5511999999999" target="_blank" class="whatsapp-btn">
+                        <i class="fab fa-whatsapp"></i> Solicitar Orçamento no WhatsApp
+                    </a>
+                </div>
+            </div>
+            <!--Product 2-->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="ImagACO/Cadeira de Aço Premium2.png" alt="Cadeira de Aço Premium">
+                    <div class="new-badge">Novo</div>
+                </div>
+                <div class="product-info">
+                    <h3>Cadeira de Aço Premium</h3>
+                    <p>Cadeira ergonômica com estrutura em aço inoxidável e assento em couro sintético. Design moderno e extremamente durável.</p>
+                    <span class="product-price">349.000 Kz</span>
+                    <a href="https://wa.me/5511999999999" target="_blank" class="whatsapp-btn">
+                        <i class="fab fa-whatsapp"></i> Solicitar Orçamento no WhatsApp
+                    </a>
+                </div>
+            </div>
+            <!--Product 3-->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="ImagACO/Estante Industrial1.png" alt="Estante Industrial">
+                    <div class="new-badge">Novo</div>
+                </div>
+                <div class="product-info">
+                    <h3>Estante Industrial</h3>
+                    <p>Estante modular em aço carbono com acabamento anticorrosivo. Perfeita para armazenamento em lojas e escritórios.</p>
+                    <span class="product-price">299.000 Kz</span>
+                    <a href="https://wa.me/5511999999999" target="_blank" class="whatsapp-btn">
+                        <i class="fab fa-whatsapp"></i> Solicitar Orçamento no WhatsApp
+                    </a>
+                </div>
+            </div>
+            <!--Product 4-->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://placehold.co/400x300/4B5563/FFFFFF?text=Bancada+Trabalho" alt="Bancada de Trabalho">
+                    <div class="new-badge">Novo</div>
+                </div>
+                <div class="product-info">
+                    <h3>Bancada de Trabalho</h3>
+                    <p>Bancada profissional com estrutura reforçada em aço e tampo antiderrapante. Ideal para oficinas e laboratórios.</p>
+                    <span class="product-price">1.299.000 Kz</span>
+                    <a href="https://wa.me/5511999999999" target="_blank" class="whatsapp-btn">
+                        <i class="fab fa-whatsapp"></i> Solicitar Orçamento no WhatsApp
+                    </a>
+                </div>
+            </div>
+            <!--Product 5-->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://placehold.co/400x300/4B5563/FFFFFF?text=Mesa+Reunião" alt="Mesa de Reunião Nobre">
+                    <div class="new-badge">Novo</div>
+                </div>
+                <div class="product-info">
+                    <h3>Mesa de Reunião Nobre</h3>
+                    <p>Mesa executiva com estrutura em aço inoxidável e tampo em vidro temperado. Elegância e resistência em um único produto.</p>
+                    <span class="product-price">2.499.000 Kz</span>
+                    <a href="https://wa.me/5511999999999" target="_blank" class="whatsapp-btn">
+                        <i class="fab fa-whatsapp"></i> Solicitar Orçamento no WhatsApp
+                    </a>
+                </div>
+            </div>
+            <!--Product 6-->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://placehold.co/400x300/4B5563/FFFFFF?text=Cadeira+Giratória" alt="Cadeira Giratória Industrial">
+                    <div class="new-badge">Novo</div>
+                </div>
+                <div class="product-info">
+                    <h3>Cadeira Giratória Industrial</h3>
+                    <p>Cadeira giratória com base em aço reforçado e mecanismo de ajuste de altura. Conforto e durabilidade garantidos.</p>
+                    <span class="product-price">599.000 Kz</span>
+                    <a href="https://wa.me/5511999999999" target="_blank" class="whatsapp-btn">
+                        <i class="fab fa-whatsapp"></i> Solicitar Orçamento no WhatsApp
+                    </a>
+                </div>
+            </div>
+            <!--Product 7-->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://placehold.co/400x300/4B5563/FFFFFF?text=Prateleira+Suspensa" alt="Prateleira Suspensa">
+                    <div class="new-badge">Novo</div>
+                </div>
+                <div class="product-info">
+                    <h3>Prateleira Suspensa</h3>
+                    <p>Prateleira suspensa em aço carbono com fixação industrial. Solução inteligente para aproveitamento de espaço vertical.</p>
+                    <span class="product-price">299.000 Kz</span>
+                    <a href="https://wa.me/5511999999999" target="_blank" class="whatsapp-btn">
+                        <i class="fab fa-whatsapp"></i> Solicitar Orçamento no WhatsApp
+                    </a>
+                </div>
+            </div>
+            <!--Product 8-->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://placehold.co/400x300/4B5563/FFFFFF?text=Mesa+Apoio" alt="Mesa de Apoio Nobre">
+                    <div class="new-badge">Novo</div>
+                </div>
+                <div class="product-info">
+                    <h3>Mesa de Apoio Nobre</h3>
+                    <p>Mesa de apoio com estrutura em aço inoxidável e rodízios industriais. Mobilidade e resistência para ambientes dinâmicos.</p>
+                    <span class="product-price">749.000 Kz</span>
+                    <a href="https://wa.me/5511999999999" target="_blank" class="whatsapp-btn">
+                        <i class="fab fa-whatsapp"></i> Solicitar Orçamento no WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--About Section-->
+    <section id="about" class="about">
+        <div class="about-container">
+            <div class="about-content">
+                <h2>Sobre a AçoNobre</h2>
+                <p>A AçoNobre nasceu da paixão por móveis industriais que combinam funcionalidade, durabilidade e design sofisticado. Nossa missão é oferecer produtos de alta qualidade que resistam ao tempo e ao uso intenso, sem comprometer a estética.</p>
+                <p>Utilizamos apenas aço, metalons de primeira linha, processos de fabricação avançados e acabamentos nobres que garantem a resistência e a beleza dos nossos móveis. Cada peça é cuidadosamente projetada para atender às necessidades de ambientes comerciais e residenciais que exigem qualidade superior.</p>
+                <div class="features">
+                    <div class="feature">
+                        <div class="feature-dot"></div>
+                        <div>
+                            <h4>Durabilidade Extrema</h4>
+                            <p>Nossos móveis são projetados para durar décadas</p>
+                        </div>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-dot"></div>
+                        <div>
+                            <h4>Acabamento Nobre</h4>
+                            <p>Detalhes em dourado que elevam o design</p>
+                        </div>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-dot"></div>
+                        <div>
+                            <h4>Design Industrial</h4>
+                            <p>Estética moderna e funcional</p>
+                        </div>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-dot"></div>
+                        <div>
+                            <h4>Qualidade Garantida</h4>
+                            <p>Processos de fabricação rigorosos</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <div class="about-image-container">
+                    <img src="ImagACO/Sobrenos.png" alt="Fábrica AçoNobre">
+                </div>
+                <div class="about-image-bg"></div>
+            </div>
+        </div>
+    </section>
+
+    <!--Testimonials Section-->
+    <section id="testimonials" class="testimonials">
+        <div class="testimonials-container">
+            <div class="testimonials-header">
+                <h2>O que nossos clientes dizem</h2>
+                <p>Confira as avaliações de quem já experimentou a qualidade e durabilidade dos nossos móveis industriais</p>
+            </div>
+            <div class="testimonials-grid">
+                <!--Testimonial 1-->
+                <div class="testimonial-card">
+                    <img src="https://placehold.co/120x120/E5E7EB/4B5563?text=MC" alt="Miguel Costa" class="testimonial-image">
+                    <h3 class="testimonial-name">Miguel Costa</h3>
+                    <span class="testimonial-role">Arquiteto</span>
+                    <div class="testimonial-stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Os móveis da AçoNobre transformaram o escritório do meu cliente. A qualidade do aço e o acabamento nobre superaram todas as expectativas. Durabilidade com elegância!"</p>
+                </div>
+                <!--Testimonial 2-->
+                <div class="testimonial-card">
+                    <img src="https://placehold.co/120x120/E5E7EB/4B5563?text=RS" alt="Rita Santos" class="testimonial-image">
+                    <h3 class="testimonial-name">Rita Santos</h3>
+                    <span class="testimonial-role">Empresária</span>
+                    <div class="testimonial-stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Comprei a mesa industrial para minha loja e já recebi inúmeros elogios dos clientes. Além de linda, é extremamente resistente. Vale cada kwanza investido!"</p>
+                </div>
+                <!--Testimonial 3-->
+                <div class="testimonial-card">
+                    <img src="https://placehold.co/120x120/E5E7EB/4B5563?text=JP" alt="João Pereira" class="testimonial-image">
+                    <h3 class="testimonial-name">João Pereira</h3>
+                    <span class="testimonial-role">Designer de Interiores</span>
+                    <div class="testimonial-stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-alt"></i>
+                    </div>
+                    <p class="testimonial-text">"Trabalho com móveis industriais há 15 anos e posso afirmar que a AçoNobre está entre os melhores fabricantes. O custo-benefício é excelente e o atendimento é impecável."</p>
+                </div>
+                <!--Testimonial 4-->
+                <div class="testimonial-card">
+                    <img src="https://placehold.co/120x120/E5E7EB/4B5563?text=AM" alt="Ana Martins" class="testimonial-image">
+                    <h3 class="testimonial-name">Ana Martins</h3>
+                    <span class="testimonial-role">Cliente Residencial</span>
+                    <div class="testimonial-stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Comprei a cadeira premium para minha sala de jantar e estou encantada! O design industrial combina perfeitamente com minha decoração moderna e é muito confortável."</p>
+                </div>
+                <!--Testimonial 5-->
+                <div class="testimonial-card">
+                    <img src="https://placehold.co/120x120/E5E7EB/4B5563?text=FC" alt="Fernando Costa" class="testimonial-image">
+                    <h3 class="testimonial-name">Fernando Costa</h3>
+                    <span class="testimonial-role">Gerente de Café</span>
+                    <div class="testimonial-stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Adquiri 12 mesas e 24 cadeiras para meu café e já fazem 2 anos que estão em perfeito estado. A manutenção é mínima e os clientes adoram o estilo industrial. Recomendo!"</p>
+                </div>
+                <!--Testimonial 6-->
+                <div class="testimonial-card">
+                    <img src="https://placehold.co/120x120/E5E7EB/4B5563?text=LC" alt="Lúcia Carvalho" class="testimonial-image">
+                    <h3 class="testimonial-name">Lúcia Carvalho</h3>
+                    <span class="testimonial-role">Decoradora</span>
+                    <div class="testimonial-stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Os móveis da AçoNobre são minha escolha número um para projetos comerciais. A resistência é impressionante e o acabamento dourado adiciona um toque de sofisticação que meus clientes adoram."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Jobs Section-->
+    <section id="jobs" class="jobs">
+        <div class="jobs-container">
+            <div class="jobs-header">
+                <h2>Trabalhe Conosco</h2>
+                <p>Junte-se à nossa equipe e faça parte da revolução nos móveis industriais em aço. Oferecemos oportunidades para profissionais talentosos que compartilham nossa paixão por qualidade e inovação.</p>
+            </div>
+            <div class="jobs-list">
+                <!--Job 1 – Open-->
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3 class="job-title">Técnico de Soldagem Industrial</h3>
+                        <span class="job-type">CLT</span>
+                    </div>
+                    <div class="job-status status-open">
+                        <span class="status-dot open"></span>
+                        <span>Vaga aberta</span>
+                    </div>
+                    <span class="job-company">AçoNobre</span>
+                    <div class="job-location">
+                        <i class="fa fa-map-marker-alt"></i>
+                        Luanda,São Paulo
+                    </div>
+                    <div class="job-description">
+                        <p>Responsável pela execução de soldas em estruturas metálicas de móveis industriais, seguindo rigorosamente os padrões de qualidade e segurança da empresa. Atuará com diferentes tipos de aço e processos de soldagem, garantindo a durabilidade e precisão dos produtos.</p>
+                    </div>
+                    <div class="job-requirements">
+                        <h4>Requisitos</h4>
+                        <ul class="requirements-list">
+                            <li><i class="fa fa-check-circle"></i> Curso técnico em Soldagem ou experiência equivalente</li>
+                            <li><i class="fa fa-check-circle"></i> Experiência mínima de 2 anos em soldagem industrial</li>
+                            <li><i class="fa fa-check-circle"></i> Conhecimento em diferentes processos de soldagem (MIG/MAG, TIG, Eletrodo Revestido)</li>
+                            <li><i class="fa fa-check-circle"></i> Certificação NR-12 e NR-33</li>
+                            <li><i class="fa fa-check-circle"></i> Boa visão e coordenação motora</li>
+                        </ul>
+                    </div>
+                    <a href="https://wa.me/5511999999999" target="_blank" class="apply-btn">
+                        <i class="fab fa-whatsapp"></i> Candidatar-se pelo WhatsApp
+                    </a>
+                </div>
+                <!--Job 2 – Open-->
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3 class="job-title">Projetista de Móveis Industriais</h3>
+                        <span class="job-type">CLT</span>
+                    </div>
+                    <div class="job-status status-open">
+                        <span class="status-dot open"></span>
+                        <span>Vaga aberta</span>
+                    </div>
+                    <span class="job-company">AçoNobre</span>
+                    <div class="job-location">
+                        <i class="fa fa-map-marker-alt"></i>
+                        Luanda,São Paulo
+                    </div>
+                    <div class="job-description">
+                        <p>Responsável pelo desenvolvimento de projetos de móveis industriais em aço, criando desenhos técnicos detalhados e especificações de materiais. Irá trabalhar em conjunto com a equipe de produção para garantir que os projetos sejam viáveis tecnicamente e economicamente.</p>
+                    </div>
+                    <div class="job-requirements">
+                        <h4>Requisitos</h4>
+                        <ul class="requirements-list">
+                            <li><i class="fa fa-check-circle"></i> Formação em Engenharia Mecânica, Design Industrial ou áreas afins</li>
+                            <li><i class="fa fa-check-circle"></i> Domínio de softwares CAD (AutoCAD, SolidWorks ou similar)</li>
+                            <li><i class="fa fa-check-circle"></i> Experiência com projetos de estruturas metálicas</li>
+                            <li><i class="fa fa-check-circle"></i> Conhecimento em resistência de materiais e cálculo estrutural</li>
+                            <li><i class="fa fa-check-circle"></i> Boa comunicação e trabalho em equipe</li>
+                        </ul>
+                    </div>
+                    <a href="https://wa.me/5511999999999" target="_blank" class="apply-btn">
+                        <i class="fab fa-whatsapp"></i> Candidatar-se pelo WhatsApp
+                    </a>
+                </div>
+                <!--Job 3 – Closed-->
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3 class="job-title">Supervisor de Produção</h3>
+                        <span class="job-type">CLT</span>
+                    </div>
+                    <div class="job-status status-closed">
+                        <span class="status-dot closed"></span>
+                        <span>Vaga fechada</span>
+                    </div>
+                    <span class="job-company">AçoNobre</span>
+                    <div class="job-location">
+                        <i class="fa fa-map-marker-alt"></i>
+                        Luanda,São Paulo
+                    </div>
+                    <div class="job-description">
+                        <p>Responsável pela supervisão das atividades de produção, garantindo a qualidade, produtividade e segurança no ambiente fabril. Irá liderar a equipe de produção, planejar a carga de trabalho e implementar melhorias contínuas nos processos.</p>
+                    </div>
+                    <div class="job-requirements">
+                        <h4>Requisitos</h4>
+                        <ul class="requirements-list">
+                            <li><i class="fa fa-check-circle"></i> Formação em Engenharia de Produção ou áreas afins</li>
+                            <li><i class="fa fa-check-circle"></i> Experiência mínima de 3 anos em supervisão de produção industrial</li>
+                            <li><i class="fa fa-check-circle"></i> Conhecimento em metodologias de melhoria contínua (Lean, 5S, etc.)</li>
+                            <li><i class="fa fa-check-circle"></i> Habilidades de liderança e gestão de equipes</li>
+                            <li><i class="fa fa-check-circle"></i> Boa capacidade de resolução de problemas</li>
+                        </ul>
+                    </div>
+                    <a href="#" class="apply-btn disabled">
+                        <i class="fa fa-ban"></i> Vaga Encerrada
+                    </a>
+                </div>
+                <!--Job 4 – Open-->
+                <div class="job-card">
+                    <div class="job-header">
+                        <h3 class="job-title">Vendedor Técnico de Móveis Industriais</h3>
+                        <span class="job-type">CLT + Comissão</span>
+                    </div>
+                    <div class="job-status status-open">
+                        <span class="status-dot open"></span>
+                        <span>Vaga aberta</span>
+                    </div>
+                    <span class="job-company">AçoNobre</span>
+                    <div class="job-location">
+                        <i class="fa fa-map-marker-alt"></i>
+                        Luanda,São Paulo
+                    </div>
+                    <div class="job-description">
+                        <p>Responsável pela prospecção e atendimento a clientes, apresentando nossos produtos e soluções técnicas. Irá visitar clientes, entender suas necessidades e propor soluções adequadas com nossos móveis industriais em aço.</p>
+                    </div>
+                    <div class="job-requirements">
+                        <h4>Requisitos</h4>
+                        <ul class="requirements-list">
+                            <li><i class="fa fa-check-circle"></i> Experiência com vendas técnicas ou de produtos industriais</li>
+                            <li><i class="fa fa-check-circle"></i> Conhecimento básico em estruturas metálicas e móveis industriais</li>
+                            <li><i class="fa fa-check-circle"></i> Boa comunicação e habilidades de negociação</li>
+                            <li><i class="fa fa-check-circle"></i> Disponibilidade para viagens</li>
+                            <li><i class="fa fa-check-circle"></i> CNH categoria B</li>
+                        </ul>
+                    </div>
+                    <a href="https://wa.me/5511999999999" target="_blank" class="apply-btn">
+                        <i class="fab fa-whatsapp"></i> Candidatar-se pelo WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Contact Section-->
+    <section id="contact" class="contact">
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-card">
+                    <h3>Informações de Contato</h3>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4>Telefone</h4>
+                            <p>(11) 3333-4444</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div>
+                            <h4>WhatsApp</h4>
+                            <p>(11) 99999-8888</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fa fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>contato@acaonobre.com.br</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fa fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Localização</h4>
+                            <p>Av. Industrial, 1234 – Luanda,São Paulo</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="hours-card">
+                    <h4>Horário de Funcionamento</h4>
+                    <p>Segunda a Sexta: 8h às 18h</p>
+                    <p>Sábado: 8h às 13h</p>
+                    <p>Domingo: Fechado</p>
+                </div>
+            </div>
+            <div class="contact-form">
+                <h3>Envie uma Mensagem</h3>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" name="name" placeholder="Seu nome completo" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensagem</label>
+                        <textarea id="message" name="message" placeholder="Sua mensagem…" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">
+                        <i class="fa fa-paper-plane"></i> Enviar Mensagem
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer-->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-about">
+                <div class="footer-logo">
+                    <div class="footer-logo-icon">
+                        <span style="color:white; font-weight: bold;">A.N</span>
+                    </div>
+                    <span class="footer-logo-text">AçoNobre</span>
+                </div>
+                <p>Móveis industriais em aço com durabilidade comprovada e acabamento nobre.</p>
+                <p><strong> NIF:5001805231</strong></p>
+                 <div class="footer-logo-icon1">
+                <a  href=" "> <img class="footer-logo-icon1" src="ImagACO/Logo-LITERAS2.png " alt="Logo da Empresa Mãe LITERAS"></a>
+            </div>
+            </div>
+            <div class="footer-contact">
+                <h3>Contato</h3>
+                <ul class="contact-list">
+                    <li><i class="fa fa-phone"></i> (+244) 929452645</li>
+                    <li><i class="fab fa-whatsapp"></i> (11) 99999-8888</li>
+                    <li><i class="fa fa-envelope"></i> contato@acaonobre.com.br</li>
+                    <li><i class="fa fa-map-marker-alt"></i> Av. Industrial, 1234 – SP</li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h3>Siga-nos</h3>
+                <div class="social-icons">
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+                <p class="copyright">© 2025 AçoNobre. Todos os direitos reservados.</p>
+                <p class="copyright"> Esta é uma Subsidiária da empresa <strong>LITERAS-COMÉRCIO GERAL & PRESTAÇÃO DE SERVIÇOS,(SU), LDA</strong>.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!--Scroll to Top Button-->
+    <div class="scroll-top">
+        <i class="fa fa-chevron-up"></i>
+    </div>
+    <!-- Made by Mr Steve Aka Estevão A. Lizi-->
+</body>
+</html>
